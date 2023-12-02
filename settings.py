@@ -2,9 +2,9 @@ import sqlite3
 conn = sqlite3.connect('db.sqlite')
 cursor = conn.cursor()
 sql_user = '''CREATE TABLE IF NOT EXISTS usuario(
-   idUser INTEGER PRIMARY KEY AUTOINCREMENT,
-   username varchar(255),
-   password varchar(255)
+  idUser INTEGER PRIMARY KEY AUTOINCREMENT,
+  username varchar(255),
+  password varchar(255)
 )'''
 
 sql_anot = '''CREATE TABLE IF NOT EXISTS anotacao (
