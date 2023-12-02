@@ -1,8 +1,8 @@
 from utils import *
 @connection_db
-def insert_anot(cursor, conteudo, idUser):
+def insert_anot(cursor, conteudo, idUsuario):
     sql_anot = 'INSERT INTO anotacao (conteudo, idUser) VALUES (?, ?)'
-    return cursor.execute(sql_anot, [conteudo, idUser])
+    return cursor.execute(sql_anot, [conteudo, idUsuario])
 
 
 @connection_db
@@ -25,7 +25,7 @@ def listAnot(cursor, idUsuario):
     sql_anot = '''
         SELECT anotacao.*
         FROM anotacao
-        INNER JOIN usuario ON anotacao.user_id = usuario.id
-        WHERE usuario.id = ?
+        INNER JOIN usuario ON anotacao.idUsuario = usuario.idUsuario
+        WHERE usuario.idUsuario = ?
     '''
     return cursor.execute(sql_anot, [idUsuario]).fetchall()
