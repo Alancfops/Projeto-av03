@@ -9,7 +9,7 @@ sql_user = '''CREATE TABLE IF NOT EXISTS usuario(
 
 sql_anot = '''CREATE TABLE IF NOT EXISTS anotacao (
   idAnotacao INTEGER PRIMARY KEY AUTOINCREMENT,
-  conteudo varchar(255),
+  conteudo varchar(900),
   idUser references usuario(idUser)
 )'''
 

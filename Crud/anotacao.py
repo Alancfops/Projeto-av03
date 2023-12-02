@@ -7,7 +7,7 @@ def insert_anot(cursor, conteudo, idUser):
 
 @connection_db
 def update_anot(cursor, conteudo, idAnotacao, idUser):
-    sql_anot = 'UPDATE anotacao SET title=? WHERE idAnotacao=? AND idUser=?'
+    sql_anot = 'UPDATE anotacao SET conteudo=? WHERE idAnotacao=? AND idUser=?'
     return cursor.execute( sql_anot, [conteudo, idAnotacao, idUser])
 
 @connection_db
