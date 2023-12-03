@@ -20,3 +20,5 @@ def check_existing_user(cursor, username):
     sql_check_user = 'SELECT idUser FROM usuario WHERE username = ?'
     result = cursor.execute(sql_check_user, [username]).fetchone()
     return result is not None
+
+
