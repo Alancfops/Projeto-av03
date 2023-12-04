@@ -1,8 +1,8 @@
-# AnotaçõesPy
+# Suas Anotações
 
 ## Descrição
 
-O projeto AnotaçõesPy é um programa simples de anotações desenvolvido em Python, utilizando o banco de dados SQLite3 para armazenar as informações. Ele oferece uma maneira fácil e eficiente de criar, visualizar e gerenciar suas anotações de forma organizada.
+O projeto Suas Anotações é um programa simples de anotações desenvolvido em Python, utilizando o banco de dados SQLite3 para armazenar as informações. Ele oferece uma maneira fácil e eficiente de criar, visualizar e gerenciar suas anotações de forma organizada.
 
 ## Funcionalidades
 
