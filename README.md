@@ -5,11 +5,11 @@ O projeto AnotaçõesPy é um programa simples de anotações desenvolvido em Py
 
 ## Funcionalidades
 
-1. **Adicionar Anotações:** Você pode facilmente adicionar novas anotações, inserindo o título e o conteúdo desejado.
+1. **Adicionar Anotações:** Você pode facilmente adicionar novas anotações, inserindo o conteúdo desejado.
 
 2. **Visualizar Anotações:** Todas as anotações existentes são listadas, permitindo que você visualize rapidamente o que foi registrado.
 
-3. **Editar Anotações:** Se necessário, é possível editar o título e o conteúdo de uma anotação existente.
+3. **Editar Anotações:** Se necessário, é possível editar o conteúdo de uma anotação existente.
 
 4. **Excluir Anotações:** Caso uma anotação não seja mais necessária, você pode excluí-la para manter sua lista organizada.
 
