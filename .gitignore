@@ -3,3 +3,4 @@
 __pycache__
 
 # Ignorar arquivo de banco de dados SQLite
+db.sqlite

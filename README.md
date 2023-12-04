@@ -1,6 +1,7 @@
 # AnotaçõesPy
 
 ## Descrição
+
 O projeto AnotaçõesPy é um programa simples de anotações desenvolvido em Python, utilizando o banco de dados SQLite3 para armazenar as informações. Ele oferece uma maneira fácil e eficiente de criar, visualizar e gerenciar suas anotações de forma organizada.
 
 ## Funcionalidades
@@ -13,23 +14,33 @@ O projeto AnotaçõesPy é um programa simples de anotações desenvolvido em Py
 
 4. **Excluir Anotações:** Caso uma anotação não seja mais necessária, você pode excluí-la para manter sua lista organizada.
 
-
 ## Requisitos de Sistema
+
 - Python 3.x instalado
 - Módulo SQLite3 para Python
 
 ## Como Usar
 
 1. **Clone o Repositório:**
+
    ```bash
    git clone  https://github.com/Alancfops/projeto-av03.git
+
+   ```
 
 2. **Instale a biblioteca getch:**
    ```bash
    pip install getch
-3. **Execute:**
+   ```
+3. **Execute (para obter o banco de dados):**
+   ```bash
+   settings.py
+   ```
+4. **Execute:**
    ```bash
    main.py
+   ```
+
 ## Desenvolvedores
 
 desenvolvido por [Alan Cristian](https://github.com/Alancfops) e [Pedro Rosa](https://github.com/pedrorosa-dev)
