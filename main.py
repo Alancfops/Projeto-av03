@@ -32,6 +32,8 @@ while True:
             try:
                 if login_result:
                     print("Login bem-sucedido!")
+                else:
+                    print("Nome de usuário ou senha inválidos!")
 
                     while True:
                         menu_anotacao()
@@ -75,6 +77,9 @@ while True:
         elif op == '3':
             print("Saindo...")
             break
+        
+        elif op =='4':
+            historico()
 
         else:
             print("Opção inválida. Tente novamente.")

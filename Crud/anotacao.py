@@ -23,3 +23,18 @@ def delete_anot(cursor, idAnotacao, idUser):
 def list_anot(cursor, idUser):
     sql_anot = "SELECT * FROM anotacao WHERE idUser=?"
     return cursor.execute(sql_anot, [idUser]).fetchall()
+
+@connection_db
+def historico(cursor):
+    sql = """
+        SELECT usuario.username, anotacao.idAnotacao, anotacao.conteudo
+        FROM usuario
+        INNER JOIN anotacao ON usuario.idUser = anotacao.idUser
+    """
+
+    resultado = cursor.execute(sql).fetchall()
+
+    for linha in resultado:
+        print(f"Usuario: {linha[0]}| Anotacao: {linha[1]}| Conteudo: {linha[2]}")
+
+    return resultado
