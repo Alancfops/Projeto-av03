@@ -1,7 +1,7 @@
 
 # Ignorar diretório de cache do Python
-__pycache__
+*__pycache__
 
 # Ignorar arquivo de banco de dados SQLite
-db.sqlite
-db.SQLite
+/db.sqlite
+/db.SQLite
